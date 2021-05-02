@@ -30,7 +30,7 @@ I've not found a way to return more results on one page, the `limit` parameter
 in [this Stack Overflow question](https://stackoverflow.com/a/59830350/2715716)
 does not appear to work (for me). The pagination is straightforward though.
 
-## Get individual media by IF
+## Get individual media by ID
 
 `https://graph.instagram.com/${id}?fields=caption,media_type,media_url,permalink,thumbnail_url,timestamp&access_token=…`
 
